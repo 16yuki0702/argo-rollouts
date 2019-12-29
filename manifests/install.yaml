@@ -8048,6 +8048,8 @@ spec:
                       properties:
                         istio:
                           properties:
+                            apiVersion:
+                              type: string
                             virtualService:
                               properties:
                                 name:
